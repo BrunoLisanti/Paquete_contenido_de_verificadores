@@ -1,0 +1,4 @@
+server_ip=`cat server_ip.txt`
+while [ 1 ]; do 
+	curl $server_ip
+done

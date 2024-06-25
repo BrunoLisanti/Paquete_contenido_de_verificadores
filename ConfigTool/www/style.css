@@ -1,0 +1,175 @@
+html{
+	background-color: #0b7cc2;
+	font-family: 'Trebuchet MS';
+	height: 92.3354vh;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	border: 1px solid #ccc;
+	border-top: none;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+	background-color: #f1f1f1;
+	padding: 0;
+
+	/* margin: 20px; */
+	border-radius: 20px;
+
+}
+
+#main-window {
+	height: 100vh;
+	display: flex;
+	flex-flow: column;
+}
+
+.grid{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	gap: 15px;
+	min-height: 150px;
+}
+
+.grid_element{
+	max-width: 100%;
+	min-height: 100%;
+	object-fit: contain;
+	border: 5px solid gray;
+}
+
+.grid_element:hover{
+	border: 5px solid #3465a4;
+	cursor: pointer;
+}
+
+.grid_element_div{
+	width: 128px;
+	height: 128px;	
+	position: relative;
+  	display: inline-block;
+}
+
+.delete_element{
+	position: absolute;
+	top: 5;
+	right: 5;
+	border-radius: 100%;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.form_control{
+	display: flex;
+	padding-bottom: 16px;
+	justify-content: space-between;
+	align-content: center;
+	width: 70%;
+}
+
+.form_control > input[type="text"]{
+	padding: 16px;
+	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	border: 0;
+	border-radius: 10px;
+	width: 80%;
+}
+
+.form_control > label,
+.form_control > input[type="radio"]{
+	display: inline-block;
+	padding-top: 15px;
+}
+
+h1, h2, h3, h4 {
+	margin-top: 0;
+}
+
+#previews {
+	
+	top: 50%;
+	left: 5%;
+	display: flex;
+	flex-direction: column wrap;
+	justify-content: center;
+	gap: 1em;
+}
+
+#previews > * {
+	width: 33.3vw;
+	height: 33.3vh;
+	border: 1px solid black;
+}
+
+.centered {
+	text-align: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.disable_section {
+	pointer-events: none;
+	opacity: 0.4;
+}
+
+.custom-file-input {
+	border: 5px dashed gray;
+	border-radius: 5px;
+	padding: 6px;
+	cursor: pointer;
+	background-color: rgb(235, 235, 235);
+}
+
+.custom-file-input:hover {
+	border-color: #3465a4;
+}
+
+.tab {
+	overflow: hidden;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	height: 60px;
+	min-height: 60px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.tab button {
+	background-color: inherit;
+	color: white;
+	font-weight: bold;
+	font-size: 1em;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	transition: 0.3s;
+	font-size: 28px;
+	font-family: 'Trebuchet MS';
+	font-weight: bold;
+	color : #3465a4;
+}
+
+.tab button:hover {
+	background-color: #ddd;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.tab button.active {
+	background-color: #ccc;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.tabcontent {
+	padding-top: 1em;
+	padding-left: 24px;
+	display: none;
+	min-height: 25em;
+}

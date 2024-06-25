@@ -1,0 +1,7 @@
+#!/bin/bash
+cd ~/eprom
+server_ip=`cat server_ip.txt`
+while [ 1 ]; do
+	curl $server_ip
+	curl $server_ip/eprom/config.txt
+done

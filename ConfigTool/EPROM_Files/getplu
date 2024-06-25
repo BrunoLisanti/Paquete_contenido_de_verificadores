@@ -1,0 +1,8 @@
+#!/bin/sh
+#set -x
+cd ~/eprom
+mv PLU.ASC plu.asc > /dev/null 2>&1 # Soporte para plu.asc en mayusculas
+
+codigo=$1
+plu="${codigo%?}" # Eliminar digito verificador
+grep "Codigo=$plu" plu.asc

@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>Verificador de Precios HASAR</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<div id="main-window">
+		<div class="tab">
+			<button class="tablinks" onclick="openTab(event, 'Logo'); updateLogosDisplay()" id="index">Logo</button>
+			<button class="tablinks" onclick="openTab(event, 'Base de datos'); updateDBConfigDisplay()">Base de datos</button>
+		</div>
+		
+		<!-- Tab content -->
+		<div id="Logo" class="tabcontent">
+			<h2>Logo que se mostrará</h2>
+			<br>
+			<form id="logoUpload" enctype="multipart/form-data">
+				<label for="logoFile" class="custom-file-input">Seleccionar archivo</label>
+				<input id="logoFile"  type="file" name="file" accept="image/png, image/jpeg" hidden />
+			</form>
+			<br>
+			<fieldset>
+				<legend>Selección de logo</legend>
+				<div id="logoGrid" class="grid">
+				</div>
+			</fieldset>
+			<br><br>
+			<h2 id="previews_header" class="centered uppercase">Vista previa</h2>
+			<div id="previews">
+				<iframe id="preview" src="/eprom/www/index.html"></iframe>
+				<img src="/eprom/www/images/Salvapantalla.jpg">
+			</div>
+		</div>
+		
+		<div id="Base de datos" class="tabcontent">
+			<fieldset>
+				<legend>Elija el modo de acceder a los datos</legend>
+				<label for="rdb_enable_bd">Utilizar Base de datos SQL</label>
+				<input type="radio" name="rdb_change_bd" id="rdb_enable_bd" value="rdb_enable_bd" onchange="check_rdb_database();"> <br>
+				<label for="rdb_disable_bd">Utilizar archivo plu.asc en el verificador</label>
+				<input type="radio" name="rdb_change_bd" id="rdb_disable_bd" value="rdb_disable_bd" onchange="check_rdb_database();">
+			</fieldset>
+			<br> <br>
+			</fieldset>
+			<div id="campos_base_de_datos">
+				<h2>Nombres de campos de la base de datos</h2>
+				<p>Ingrese para cada campo el nombre de la columna correspondiente según su base de datos.</p>
+				<form id="DBConfig">
+					<div class="form_control">
+						<label for="dsn">DSN:</label>
+						<input type="text" id="dsn" name="dsn" class="ColumnName" required>
+					</div>
+					
+					<div class="form_control">
+						<label for="Tabla">Nombre de tabla: </label>
+						<input type="text" id="Tabla" name="Tabla" class="ColumnName" required>
+					</div>
+					
+					<div class="form_control">
+						<label for="Codigo">Codigo de barras:</label>
+					<input type="text" id="Codigo" name="Codigo" class="ColumnName" required>
+					</div>
+				
+					<div class="form_control">
+						<label for="Descripcion">Descripcion:</label>
+						<input type="text" id="Descripcion" name="Descripcion" class="ColumnName" required>
+					</div>
+				
+					<div class="form_control">
+						<label for="PrecioUnit">Precio:</label>
+						<input type="text" id="PrecioUnit" name="PrecioUnit" class="ColumnName" required>
+					</div>
+				
+					<div class="form_control">
+						<div>
+							<input type="checkbox" class="dbCheckbox" id="chkOferta" name="chkOferta" onclick="document.getElementById('Oferta').disabled = !this.checked">  
+							<label for="chkOferta">Oferta:</label>
+						</div>
+						<input type="text" id="Oferta" name="Oferta" class="ColumnName" required>
+					</div>
+					<input type="submit" class="custom-file-input" value="Aceptar">
+				</form>
+			</div>
+		</div>
+		
+	</div>
+	<script src="app.js"></script>
+	</body>
+</html>

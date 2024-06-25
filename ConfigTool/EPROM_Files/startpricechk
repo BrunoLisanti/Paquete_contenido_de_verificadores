@@ -1,0 +1,12 @@
+URL=127.0.0.1:5000
+cd ~/eprom
+
+./server -p5000 -r./www -s./getplu -c./server_conn &
+./server_conn > /dev/null 2>&1 & # Descartar todo el output permite seguir con la ejecución de este script
+
+chromium-browser --incognito --noerrdialogs --disable-translate --no-first-run --fast-start --disable-infobars --diasable-features=TranslateUI --disk-cache=/dev/null $URL &
+xdotool search -sync -onlyvisible -class chromium windowactivate -sync
+xdotool type "$URL"
+sleep 8
+xdotool key F11
+xdotool mousemove polar 1366 768
