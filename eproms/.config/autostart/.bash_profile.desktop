@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Dispara Verificador de Precios
-Exec=./eprom/startup
-Icon=system-run
-Comment=
-Name[en_US]=Dispara Verificador de Precios
-Comment[en_US]=
-X-GNOME-Autostart-enabled=true
