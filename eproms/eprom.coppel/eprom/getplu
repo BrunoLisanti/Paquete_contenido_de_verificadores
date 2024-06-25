@@ -1,0 +1,25 @@
+#!/bin/bash
+. getplu.cfg
+
+cd ~/eprom
+mv PLU.ASC plu.asc > /dev/null 2>&1 # Soporte para plu.asc en mayusculas
+
+# Leer la URL desde el archivo server_ip.txt
+
+#if [ $mode = "sql" ]; then
+#	URL=$(cat server_ip.txt)
+#	RESPONSE=$(curl -sSL "$URL/getplu/$1")
+#elif [ $mode = "plu" ]; then
+    RESPONSE=`grep "Codigo=$1" plu.asc`
+#elif [ $mode = "hpos" ]; then
+#    RESPONSE=`python ./main.py $1`
+#fi
+
+if [ -z "$RESPONSE" ]
+then
+	echo $(date)" - Codigo:"$1 "no encontrado." >> logs/scanned.log
+else
+	echo $(date) - $RESPONSE >> logs/scanned.log
+fi
+
+echo $RESPONSE

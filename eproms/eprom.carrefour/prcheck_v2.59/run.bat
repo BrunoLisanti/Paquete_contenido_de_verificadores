@@ -1,0 +1,1 @@
+prcheck_v2.59.exe -p:3334 -x:PLU.ASC -v:NQUIRE -s:54

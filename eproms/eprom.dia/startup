@@ -1,0 +1,6 @@
+PATH=.:$PATH
+killall server
+sleep 10
+cd ~/eprom
+. ambiente
+startpricechk &

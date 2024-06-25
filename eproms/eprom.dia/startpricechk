@@ -1,0 +1,13 @@
+#!/bin/sh
+URL=127.0.0.1:5000
+
+# Al llamar al servidor usamos 3 parametros, '-p' el puerto donde va a escuchar
+# '-r' el path donde esta la pagina y '-s'el script que usa para recuperar los datos de la plu
+
+./server -p5000 -r./etc.dia -s./getplu.dia &
+firefox $URL &
+xdotool search -sync -onlyvisible -class firefox windowactivate -sync
+xdotool type "$URL
+"
+xdotool key F11
+xdotool mousemove polar 1366 768

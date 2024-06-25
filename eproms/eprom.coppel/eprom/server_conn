@@ -1,0 +1,47 @@
+#!/bin/bash
+cd ~/eprom
+
+>logs/conn.log
+
+# Terminar proceso de otra instancia del script si existe
+script_name=${BASH_SOURCE[0]}
+for pid in $(pidof -x $script_name); do
+    if [ $pid != $$ ]; then
+        kill $pid
+		echo $(date) - Reemplazando proceso $pid >> logs/conn.log
+    fi 
+done
+
+ip=`cat server_ip.txt`
+
+if [ -z $ip ]
+then
+	echo $(date) - No hay IP >> logs/conn.log
+	exit
+fi
+
+EPROM=$ip/eprom
+files="www/images/Logo_Custom.png|getplu.cfg"
+files=(${files//|/ }) # Transformar en array
+
+echo Antes de hacer un curl al servidor... >> logs/conn.log 2>&1
+
+end=$((SECONDS+10)) #Durante 10 segundos intenta conectarse al servidor
+
+while [ $SECONDS -lt $end ]; do
+    curl -m 1 -I $ip >> logs/conn.log 2>&1 # HEAD Request --> Verificar que existe el servidor
+    if [ $? -eq 0 ]; then
+	break
+    fi
+done
+
+echo $(date) - Servidor encontrado, procediendo... >> logs/conn.log
+
+for i in ${!files[@]}
+do
+	wget $EPROM/"${files[$i]}" -O ./"${files[$i]}" >> logs/conn.log 2>&1
+done
+
+
+
+#./change_ui

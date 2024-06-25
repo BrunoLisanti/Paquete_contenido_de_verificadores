@@ -1,0 +1,32 @@
+Antes de hacer un curl al servidor...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  3520    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/1.1 200 OK
+Server: Werkzeug/2.2.2 Python/3.10.11
+Date: Tue, 31 Oct 2023 13:49:51 GMT
+Content-Disposition: inline; filename=index.html
+Content-Type: text/html; charset=utf-8
+Content-Length: 3520
+Last-Modified: Thu, 12 Oct 2023 15:24:18 GMT
+Cache-Control: no-cache
+ETag: "1697124258.0-3520-1270225390"
+Date: Tue, 31 Oct 2023 13:49:51 GMT
+Connection: close
+
+Tue Oct 31 09:49:51 EDT 2023 - Servidor encontrado, procediendo...
+--2023-10-31 09:49:51--  http://10.0.102.133:5001/eprom/www/images/Logo_Custom.png
+Connecting to 10.0.102.133:5001... connected.
+HTTP request sent, awaiting response... 404 NOT FOUND
+2023-10-31 09:49:51 ERROR 404: NOT FOUND.
+
+--2023-10-31 09:49:51--  http://10.0.102.133:5001/eprom/getplu.cfg
+Connecting to 10.0.102.133:5001... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9 [application/octet-stream]
+Saving to: ‘./getplu.cfg’
+
+     0K                                                       100%  209K=0s
+
+2023-10-31 09:49:51 (209 KB/s) - ‘./getplu.cfg’ saved [9/9]
+

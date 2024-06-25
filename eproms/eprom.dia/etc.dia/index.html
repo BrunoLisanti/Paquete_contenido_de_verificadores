@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Verificador de Precios Hasar</title>
+	<meta name="description" content="Verificador de precios para cajas registradoras de Hasar.">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="lib/jquery.min.js"></script>
+</head>
+<body>
+	<div class="main">
+		<img class="back" src="images/fondo.jpg" alt="">
+		<div class="content bordeblanco">
+			<div class="marcoprecio bordeblanco">
+				<span class="bordeblanco" id="precio_signo">$</span>
+				<span class="bordeblanco" id="precio_valor"></span>
+				<span class="bordeblanco" id="precio_centavos"></span>
+			</div>
+			<div id="oferta">
+				<span class="bordeblanco" id="titulo_oferta">OFERTA</span>
+				<div id="precio_oferta" class="bordeblanco">
+					<span class="bordeblanco" id="precio_oferta_signo">$</span>
+					<span class="bordeblanco" id="precio_oferta_valor"></span>
+					<span class="bordeblanco" id="precio_oferta_centavos"><sup></sup></span>
+				</div>
+				<div class="bordeblanco" id="desc_oferta_borde">
+					<span class="bordeblanco" id="desc_oferta"></span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<span id="descripcion" class="descripion"></span>
+	<span id="codigo"></span>
+	<div id="consultando">
+		<h1 id="consultando_precio_title"></h1>
+	</div>
+	<div id="screensaver"></div>
+	<script src="scripts/app.js"></script>
+</body>
+</html>

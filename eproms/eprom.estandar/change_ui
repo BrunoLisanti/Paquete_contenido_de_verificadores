@@ -1,0 +1,36 @@
+#!/bin/bash
+cd ~/eprom
+
+>logs/ui.log
+
+config=`cat ui.cfg`
+
+if [ -z $config ] # Archivo vacio
+then
+	echo $(date) - Archivo vacío. Cancelando >> logs/ui.log 
+	exit
+fi
+
+array=(${config//,/ }) # Convertir texto separado por comas en array
+
+cd ~/eprom/www
+for i in ${!array[@]}; do
+	key_value=(${array[$i]//=/ })
+
+	if [ ${key_value[0]} != "name" ]
+	then
+		continue
+	fi
+
+	cmp -s index.${key_value[0]} views/${key_value[1]}
+	if [ $? = 0 ]
+	then
+		echo $(date) - Mismo archivo ${key_value[1]}. Omitiendo copia >> ../logs/ui.log
+		break
+	fi
+	echo $(date) - Cambiando estilo a ${key_value[1]} >> ../logs/ui.log
+	cp views/${key_value[1]} ./index.${key_value[0]}
+done
+
+xdotool search -sync -onlyvisible -class chromium windowactivate -sync
+xdotool key F5

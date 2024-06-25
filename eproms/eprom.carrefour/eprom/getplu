@@ -1,0 +1,21 @@
+#!/bin/bash
+#. getplu.cfg
+
+cd ~/eprom
+#mv PLU.ASC plu.asc > /dev/null 2>&1 # Soporte para plu.asc en mayusculas
+
+# Leer la URL desde el archivo server_ip.txt
+
+# Realizar la petición a la URL con el número pasado como argumento
+
+codigo=$1
+#plu="${codigo%?}" # Eliminar digito verificador
+
+#if [ $mode = "sql" ]; then
+#	URL=$(cat server_ip.txt)
+#	RESPONSE=$(curl -sSL "$URL/getplu/$plu")
+#	echo $RESPONSE
+#else
+#grep "Codigo=$plu" plu.asc
+python3 clientpc.py $codigo
+#fi

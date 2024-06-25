@@ -1,0 +1,2036 @@
+Interfase Hasar Sistemas SRL Ver.:2.57 - 04/06/2015
+
+***************************************
+
+Puerto:9101 - Path del Plu:PLU.asc
+
+
+Modelo PRCHECK = SG15 - Conexion TCP address=10.0.5.22
+
+Cliente aceptado: 10.0.5.22:28971
+
+
+Interfase Hasar Sistemas SRL Ver.:2.57 - 04/06/2015
+
+***************************************
+
+Puerto:9101 - Path del Plu:PLU.asc
+
+
+Modelo PRCHECK = SG15 - Conexion TCP address=10.0.5.22
+
+Cliente aceptado: 10.0.5.22:28972
+
+
+Lectura Socket sock=1920, Bytes=15 
+
+aux ean 7790895004032
+
+nulo aux ean 779089500403
+
+busco ean 779089500403
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+Lectura Socket sock=1920, Bytes=15 
+
+aux ean 7798062540130
+
+nulo aux ean 779806254013
+
+busco ean 779806254013
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+Interfase Hasar Sistemas SRL Ver.:2.57 - 04/06/2015
+
+***************************************
+
+Puerto:9101 - Path del Plu:PLU.asc
+
+
+Modelo PRCHECK = SG15 - Conexion TCP address=10.0.5.22
+
+Cliente aceptado: 10.0.5.22:28998
+
+
+Lectura Socket sock=1920, Bytes=15 
+
+aux ean 7790895004032
+
+nulo aux ean 779089500403
+
+busco ean 779089500403
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779089500403|
+
+Encontre precio |10.00|
+
+Encontre desc |PACK X2+1 VASO COC|
+
+Encontre ean 779089500403 con |PACK X2+1 VASO COC|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+Lectura Socket sock=1920, Bytes=15 
+
+aux ean 7798062540130
+
+nulo aux ean 779806254013
+
+busco ean 779806254013
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+Lectura Socket sock=1920, Bytes=15 
+
+aux ean 7790895004032
+
+nulo aux ean 779089500403
+
+busco ean 779089500403
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779089500403|
+
+Encontre precio |10.00|
+
+Encontre desc |PACK X2+1 VASO COC|
+
+Encontre ean 779089500403 con |PACK X2+1 VASO COC|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+Interfase Hasar Sistemas SRL Ver.:2.58 - 17/10/2016
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Interfase Hasar Sistemas SRL Ver.:2.58 - 17/10/2016
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Interfase Hasar Sistemas SRL Ver.:2.58 - 17/10/2016
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Interfase Hasar Sistemas SRL Ver.:2.58 - 17/10/2016
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Interfase Hasar Sistemas SRL Ver.:2.58 - 17/10/2016
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41748
+
+
+Lectura Socket sock=292, Bytes=4 
+
+aux ean 77
+
+nulo aux ean 7
+
+busco ean 000000000007
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=292, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41764
+
+
+Lectura Socket sock=320, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=320, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41766
+
+
+Lectura Socket sock=340, Bytes=18 
+
+aux ean 127791293040233
+
+nulo aux ean 12779129304023
+
+busco ean 12779129304023
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=340, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41774
+
+
+Lectura Socket sock=292, Bytes=11 
+
+aux ean 122424
+
+nulo aux ean 12242
+
+busco ean 000000012242
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=292, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41785
+
+
+Lectura Socket sock=320, Bytes=4 
+
+aux ean 77
+
+nulo aux ean 7
+
+busco ean 000000000007
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=320, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41787
+
+
+Lectura Socket sock=332, Bytes=7 
+
+aux ean 1277
+
+nulo aux ean 127
+
+busco ean 000000000127
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=332, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41789
+
+
+Lectura Socket sock=344, Bytes=7 
+
+aux ean 1277
+
+nulo aux ean 127
+
+busco ean 000000000127
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=344, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41791
+
+
+Lectura Socket sock=324, Bytes=10 
+
+aux ean 121277
+
+nulo aux ean 12127
+
+busco ean 000000012127
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=324, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41793
+
+
+Lectura Socket sock=296, Bytes=4 
+
+aux ean 77
+
+nulo aux ean 7
+
+busco ean 000000000007
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=296, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41795
+
+
+Lectura Socket sock=300, Bytes=10 
+
+aux ean 121277
+
+nulo aux ean 12127
+
+busco ean 000000012127
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=300, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41797
+
+
+Lectura Socket sock=300, Bytes=35 
+
+aux ean 1212121212121212121212
+
+nulo aux ean 121212121212121212121
+
+busco ean 121212121212121212121
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=300, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41799
+
+
+Lectura Socket sock=312, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |16.90|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=312, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41801
+
+
+Lectura Socket sock=296, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |16.90|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=296, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41804
+
+
+Lectura Socket sock=304, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |16.90|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=304, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41806
+
+
+Lectura Socket sock=316, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |16.90|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=316, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41808
+
+
+Lectura Socket sock=332, Bytes=14 
+
+aux ean 779485100106
+
+nulo aux ean 77948510010
+
+busco ean 077948510010
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=332, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41810
+
+
+Lectura Socket sock=320, Bytes=12 
+
+aux ean 122424
+
+nulo aux ean 12242
+
+busco ean 000000012242
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=320, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41812
+
+
+Lectura Socket sock=328, Bytes=8 
+
+aux ean 12
+
+nulo aux ean 1
+
+busco ean 000000000001
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=328, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41814
+
+
+Lectura Socket sock=364, Bytes=8 
+
+aux ean 12779
+
+nulo aux ean 1277
+
+busco ean 000000001277
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=364, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41816
+
+
+Lectura Socket sock=336, Bytes=5 
+
+aux ean 779
+
+nulo aux ean 77
+
+busco ean 000000000077
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=336, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41818
+
+
+Lectura Socket sock=352, Bytes=24 
+
+aux ean 12606060
+
+nulo aux ean 1260606
+
+busco ean 000001260606
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=352, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41820
+
+
+Lectura Socket sock=348, Bytes=21 
+
+aux ean 606060
+
+nulo aux ean 60606
+
+busco ean 000000060606
+
+OK Abriendo archivo de articulos
+
+
+ 
+ No se encontro el registro buscado 
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=348, Bytes=0 
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:41822
+
+
+Lectura Socket sock=376, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=376, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=127.0.0.1
+
+Cliente aceptado: 127.0.0.1:60092
+
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=276, Bytes=22 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38911
+
+
+Lectura Socket sock=256, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=256, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38912
+
+
+Lectura Socket sock=288, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=288, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38913
+
+
+Lectura Socket sock=304, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=304, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38914
+
+
+Lectura Socket sock=292, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=292, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38915
+
+
+Lectura Socket sock=288, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |0.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=288, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38916
+
+
+Lectura Socket sock=276, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |0.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=276, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38917
+
+
+Lectura Socket sock=288, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=288, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38918
+
+
+Lectura Socket sock=292, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=292, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38919
+
+
+Lectura Socket sock=300, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=300, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38920
+
+
+Lectura Socket sock=304, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=304, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38921
+
+
+Lectura Socket sock=300, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=300, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38922
+
+
+Lectura Socket sock=296, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=296, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38923
+
+
+Lectura Socket sock=300, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |2.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=300, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38924
+
+
+Lectura Socket sock=292, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |2.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=292, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38925
+
+
+Lectura Socket sock=288, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |2.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=288, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38926
+
+
+Lectura Socket sock=304, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |2.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=304, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38927
+
+
+Lectura Socket sock=284, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=284, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38928
+
+
+Lectura Socket sock=308, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=308, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38929
+
+
+Lectura Socket sock=320, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=320, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38930
+
+
+Lectura Socket sock=296, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=296, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38931
+
+
+Lectura Socket sock=300, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=300, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38932
+
+
+Lectura Socket sock=256, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=256, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38933
+
+
+Lectura Socket sock=288, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=288, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+
+Modelo PRCHECK = NQUIRE - Conexion TCP address=10.0.102.83
+
+Cliente aceptado: 10.0.102.83:38934
+
+
+Lectura Socket sock=320, Bytes=15 
+
+aux ean 7794851001066
+
+nulo aux ean 779485100106
+
+busco ean 779485100106
+
+OK Abriendo archivo de articulos
+
+Encontre ean |779485100106|
+
+Encontre precio |20.00|
+
+Encontre precio combo |0.00|
+
+Encontre desc |PLASTICOLA|
+
+Encontre ean 779485100106 con |PLASTICOLA|
+
+
+
+
+ /***********************************/ 
+
+
+ finalizo el send con 512 
+
+ERROR: recepcion TCP.
+
+Lectura Socket sock=320, Bytes=0 
+
+Interfase Hasar Sistemas SRL Ver.:2.59 - 03/04/2023
+
+***************************************
+
+Puerto:5000 - Path del Plu:PLU.ASC
+
+

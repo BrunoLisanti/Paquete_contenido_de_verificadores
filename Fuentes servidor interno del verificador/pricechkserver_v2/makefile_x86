@@ -1,0 +1,19 @@
+# This is the default target, which will be built when
+# you invoke make
+# Opcion para compilar para x86
+.PHONY: all
+	all: server
+
+server_x86: main.o protect.o
+	g++ -g -o server_x86 main.o protect.o
+	cp -f server ../../eprom
+
+main.o:
+	g++ -g -c main.c
+
+protect.o:
+	g++ -g -c protect.c
+
+.PHONY: clean
+clean:
+	rm server_x86 main.o protect.o

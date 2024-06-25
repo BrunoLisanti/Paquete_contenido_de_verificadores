@@ -1,0 +1,2 @@
+#!/bin/bash
+ifconfig | grep 'Bcast:' | awk {'print $3'} | sed -e 's/Bcast://'

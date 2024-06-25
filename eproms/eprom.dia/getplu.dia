@@ -1,0 +1,6 @@
+#!/bin/sh
+#set -x
+codigo=$1
+codigo=${codigo%?}
+result=`python ./clientpc.py $1`
+echo RESULT=$result

@@ -1,0 +1,1 @@
+|PATH=C:\Users\Bruno Lisanti\Desktop\lista precios hasar.xlsx|ID=codigo de barra|DESCRIPCION=nombre|PRECIO=precio1|IGNORARID0=True|IGNORARPRECIO0=True|LIMITARDESCRIPCION=False|NOMBRETABLA=|CONTRASENIA=

@@ -1,0 +1,2 @@
+# Configuracion de variables para Verificador de Precios
+export PATH=.:$PATH

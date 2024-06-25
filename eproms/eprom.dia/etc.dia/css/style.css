@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("BebasNeue-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Landasans-UltraLight";
+    src: url("Landasans-UltraLight.otf") format("opentype");
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    cursor: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: moz-none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html,
+body {
+    font-family: "Bebas Neue" !important;
+    position: fixed;
+    background-color: white;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    cursor: none;
+}
+
+.main {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.main .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bordeblanco {
+   /* border: 1px solid white; */
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 90%;
+}
+
+.marcoprecio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: calc((100% / 1080) * 130); 
+    left: calc((100% / 1920) * 50);
+    width: calc((100% / 1920) * 1350);
+    height: calc((100% / 1080) * 500);
+
+    text-align: center;
+}
+
+#precio_signo {
+    font-family: "Bebas Neue" !important;
+    font-size: 230px;
+    font-style: bold;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+#precio_valor {
+    font-family: "Bebas Neue" !important;
+    font-size: 550px;
+    font-style: bold;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+#precio_centavos {
+    font-family: "Bebas Neue" !important;
+    font-size: 130px;
+    font-style: bold;
+    font-weight: normal;
+    align-self: flex-start;
+    color: #ffffff;
+}
+
+#oferta {
+
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 4px solid white;
+    top: calc((100% / 1080) * 40);
+    left: calc((100% / 1920) * 940);
+    width: calc((100% / 1920) * 500);
+    height: calc((100% / 1080) * 850);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#precio_oferta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo_oferta {
+    color: yellow;
+    font-size: 130px;
+}
+
+#precio_oferta_valor {
+    color: white;
+    font-size: 200px;
+}
+
+#precio_oferta_signo {
+    color: white;
+    font-size: 100px;
+}
+
+#precio_oferta_centavos {
+    color: white;
+    font-size: 90px;
+    align-self: flex-start;
+}
+
+#desc_oferta_borde {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-height: 320px;
+}
+
+#desc_oferta {
+    color: yellow;
+    font-size: 9vw;
+}
+
+#descripcion {
+    font-family: "Bebas Neue" !important;
+    font-size: 130px;
+    font-style: normal;
+    position: absolute;
+    top: 900px;
+    left: 40px;
+    font-weight: 400;
+    color: #272727;
+    width: 1000px;
+}
+
+#codigo {
+    font-family: "Bebas Neue" !important;
+    font-size: 120px;
+    font-style: normal;
+    position: absolute;
+    top: 900px;
+    left: 1250px;
+    font-weight: 400;
+    color: #272727;
+}
+
+
+#screensaver {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    background-image: url("../images/Salvapantalla.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+#consultando {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 98;
+    background: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*background-color:red;*/
+   background-color: red;
+}
+
+#consultando_precio_title {
+    font-family: "Bebas Neue" !important;
+    font-size: 130px;
+    font-style: normal;
+    color: yellow;
+    letter-spacing: 0.5rem;
+    text-shadow: 2px 2px 5px #272727;
+}
