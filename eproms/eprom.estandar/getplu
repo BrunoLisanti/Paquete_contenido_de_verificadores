@@ -6,22 +6,25 @@ mv PLU.ASC plu.asc > /dev/null 2>&1 # Soporte para plu.asc en mayusculas
 
 # Leer la URL desde el archivo server_ip.txt
 
+codigo=$1
+plu="${codigo%?}" # Eliminar digito verificador
+
 if [ $mode = "sql" ]; then
 	URL=$(cat server_ip.txt)
-	RESPONSE=$(curl -sSL "$URL/getplu/$1")
+	RESPONSE=$(curl -sSL "$URL/getplu/$plu")
 elif [ $mode = "plu" ]; then
-	RESPONSE=`grep "Codigo=$1" plu.asc`
+	RESPONSE=`grep "Codigo=$plu" plu.asc`
 elif [ $mode = "hpos" ]; then
 	if ! ps ax | grep search_hpos_server | grep -v grep > /dev/null;
 	then
 		./search_hpos_server &
 	fi
-    RESPONSE=`python ./main.py $1`
+    RESPONSE=`python ./main.py $plu`
 fi
 
 if [ -z "$RESPONSE" ]
 then
-	echo $(date)" - Codigo:"$1 "no encontrado." >> logs/scanned.log
+	echo $(date)" - Codigo:"$plu "no encontrado." >> logs/scanned.log
 else
 	echo $(date) - $RESPONSE >> logs/scanned.log
 fi
