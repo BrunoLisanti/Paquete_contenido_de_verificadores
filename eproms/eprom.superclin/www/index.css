@@ -1,0 +1,126 @@
+
+@font-face {
+    font-family: Noto Sans;
+    src: url("fuentes/noto-sans/NotoSans-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Noto Sans;
+    src: url("fuentes/noto-sans/NotoSans-Bold.ttf");
+    font-weight: bold;
+}
+
+body {
+    text-transform: uppercase; 
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#salvapantallas {
+	position: fixed;
+	top: 0;
+	left: 0;
+    width: 100vw;
+	height: 100vh;
+	z-index: 99;
+	background-image: url("images/Salvapantalla.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+}
+
+.visible {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: Noto Sans;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Precio {
+    height: 50vh;
+    background-color: rgba(237,237,237,255);
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    font-size: 30vh;
+    color: rgb(43,42,48); /*#1cae1b; */
+    z-index: 10;
+}
+
+.Desc {
+    background-color: white;
+    height: 25vh;
+    font-size: 5.5vw;
+    color: rgb(43,42,48);
+}
+
+.Oferta {
+    background-color: white;
+    height: 25vh;
+    font-size: 6.25vh;
+    color: rgb(141, 141, 141);
+    font-weight: normal;
+    /* justify-content:space-between; */
+    justify-content: center;
+}
+
+#contador {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-family: Noto Sans;
+    font-size: 3rem;
+}
+
+.iconoTouch {
+    position: absolute;
+    right: -35px;
+    bottom: -12px; 
+    height: 200px;
+    width: 200px;
+    opacity: 0.3;
+}
+
+#Oferta{
+    max-width: 75%;
+    word-wrap: break-word;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.Oferta > * {
+    margin: 0 15px;
+}
+
+#logopie {
+    flex-shrink: 0;
+    position: relative;
+    right: 5px;
+    /* bottom: 5px; */
+    height: 90%;
+}
+
+input{
+    opacity: 0;
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
