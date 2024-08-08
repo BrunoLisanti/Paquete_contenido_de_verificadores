@@ -113,7 +113,7 @@ window.onload = function() {
         var plu = campoDeTexto.value;
         var flag = plu.substring(0, 2);
 
-		if (plu.lentgth() === 8)
+		if (plu.length === 8)
 			plu = "00000" + plu;
 
         campoDeTexto.value = "";
