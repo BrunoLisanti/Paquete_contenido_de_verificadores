@@ -7,7 +7,7 @@ def get_server_location():
 	while True:
 		try:
 			with open('hpos_server.txt') as f:
-				return f.readline()
+				return f.readline().replace('\n', '')
 		except:
 			time.sleep(1)
 

@@ -73,10 +73,10 @@ window.onload = function() {
         return [plu.substring(0, campo1), plu.substring(campo1, campo2), plu.substring(campo2, campo3)];
     }
 
-    //document.getElementsByTagName('video')[0].onended = function () { //Posible función para reproducir un video en el salvapantallas
-    //  this.load();
-    //  this.play();
-    //};
+    document.getElementsByTagName('video')[0].onended = function () {
+     this.load();
+     this.play();
+    };
 
     // *** LÓGICA DEL VERIFICADOR
     // ***
@@ -107,7 +107,7 @@ window.onload = function() {
     document.addEventListener("keypress", function(tecla) {
         var key_code = (tecla.keyCode ? tecla.keyCode : tecla.which);
         if (key_code != 13) 
-            return;        
+            return;
         document.getElementById("Oferta").textContent = "";
 
         var plu = campoDeTexto.value;

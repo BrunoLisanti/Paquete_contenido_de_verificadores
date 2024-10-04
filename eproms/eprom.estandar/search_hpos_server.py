@@ -33,6 +33,6 @@ while True:
 						move("_hpos_server.txt", "hpos_server.txt")
 					time.sleep(5)
 		except Exception as err:
-			# print(broadcast_address + f": {err=}, {type(err)=}")
+			print(broadcast_address + f": {err=}, {type(err)=}")
 			continue
 	time.sleep(1)

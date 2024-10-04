@@ -6,8 +6,8 @@ mv PLU.ASC plu.asc > /dev/null 2>&1 # Soporte para plu.asc en mayusculas
 
 # Leer la URL desde el archivo server_ip.txt
 
-codigo=$1
-plu="${codigo%?}" # Eliminar digito verificador
+plu=$1
+#plu="${plu%?}" # Eliminar digito verificador
 
 if [ $mode = "sql" ]; then
 	URL=$(cat server_ip.txt)
