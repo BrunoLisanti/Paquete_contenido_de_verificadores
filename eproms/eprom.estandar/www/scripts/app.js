@@ -73,10 +73,10 @@ window.onload = function() {
         return [plu.substring(0, campo1), plu.substring(campo1, campo2), plu.substring(campo2, campo3)];
     }
 
-    document.getElementsByTagName('video')[0].onended = function () {
-     this.load();
-     this.play();
-    };
+    // document.getElementsByTagName('video')[0].onended = function () {
+    //  this.load();
+    //  this.play();
+    // };
 
     // *** LÓGICA DEL VERIFICADOR
     // ***
